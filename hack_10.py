@@ -17,4 +17,4 @@ def fn_hack_10():
     result_list = list(new_result.upper())
     return result_list
 
-print(fn_hack_10())
+fn_hack_10()

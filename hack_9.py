@@ -4,14 +4,10 @@ loop: while [1,2,3] ouput => [1,'@',2,'@',3,'@']
 
 def fn_hack_9():
     result = [1,2,3]
-    result.insert(1, "@")
-    result.insert(3, "@")
-    result.insert(5, "@")
-
-    """
-    OTRA MANERA 
-    result = [str(num) for num in result]
-    result = "@".join(result)
-    """
+    i = 1
+    while i <= len(result):
+        result.insert(i, "@")
+        i += 2
+        
     return result  
-print(fn_hack_9())
+fn_hack_9()
