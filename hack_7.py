@@ -11,4 +11,4 @@ def fn_hack_7():
         i -= 1
 
     return result
-print(fn_hack_7())
+fn_hack_7()

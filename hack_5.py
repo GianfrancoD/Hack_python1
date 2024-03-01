@@ -15,4 +15,4 @@ def fn_hack_5():
             new_result += i
             
     return new_result
-print(fn_hack_5())
+fn_hack_5()

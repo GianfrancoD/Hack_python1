@@ -7,4 +7,4 @@ def fn_hack_6():
     for i in range(6):
         result.append(i)
     return result  
-print(fn_hack_6())
+fn_hack_6()

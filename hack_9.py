@@ -10,4 +10,4 @@ def fn_hack_9():
         i += 2
         
     return result  
-print(fn_hack_9())
+fn_hack_9()

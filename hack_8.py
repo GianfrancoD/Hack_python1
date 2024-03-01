@@ -8,4 +8,4 @@ def fn_hack_8():
     result.pop(result.index(9))
     return result  
 
-print(fn_hack_8())
+fn_hack_8()
